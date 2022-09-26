@@ -1,0 +1,21 @@
+.bar-div {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--hg-color);
+}
+.bar-text {
+    font-family: var(--font-family);
+    font-weight: lighter;
+    color: white;
+    font-size: 32px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;
+    gap: 10px;
+    justify-content: center
+}

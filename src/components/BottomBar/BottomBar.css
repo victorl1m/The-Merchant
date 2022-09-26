@@ -1,0 +1,6 @@
+.bottom-bar {
+    display: flex;
+    background-color: var(--hg-color);
+    width: 100%;
+    height: 1000px;
+}
