@@ -5,7 +5,7 @@ const BottomBar = () => {
   return (
     <div>
       <div className="bottom-bar">
-        <h1>oi</h1>
+        <h1>...</h1>
       </div>
     </div>
   );

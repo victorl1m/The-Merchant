@@ -7,15 +7,20 @@
     background-color: var(--hg-color);
 }
 .bar-text {
-    font-family: var(--font-family);
+    font-family: var(--font-display);
     font-weight: lighter;
     color: white;
     font-size: 32px;
+    text-decoration: overline;
+    
 }
 .title {
+    text-decoration: underline;
     display: flex;
     align-items: center;
-    line-height: 1.5rem;
-    gap: 10px;
-    justify-content: center
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration-color: white;
 }
