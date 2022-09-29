@@ -65,7 +65,7 @@ b {
     text-align: justify;
     font-family: var(--font-serif);
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 18px;
     color: #81453f;
 }
 .img {
@@ -84,6 +84,7 @@ img {
 }
 .article-desc {
     display: flex;
+    font-size: 24px;
     width: min(100%, 1000px);
     font-family: var(--font-serif);
     font-weight: bold;

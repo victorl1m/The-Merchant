@@ -41,7 +41,7 @@
 .info-local {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
     font-family: var(--font-serif);
     font-size: 16px;
     margin-left: auto;

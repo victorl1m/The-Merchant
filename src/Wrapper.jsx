@@ -1,6 +1,5 @@
 import "./assets/global.css";
 import TopBar from "./components/TopBar/TopBar.jsx";
-import Local from "./components/Local/Local.jsx";
 import Home from "./components/Home/Home.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,7 +13,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/article/:id" element={<Article />} />
-          <Route path="/local/:id" element={<Local />} />
         </Routes>
       </BrowserRouter>
     </>
