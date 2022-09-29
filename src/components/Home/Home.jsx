@@ -7,7 +7,7 @@ const Home = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    fetch("https://pubnews.herokuapp.com/")
+    fetch("https://apiPubnews.vitaoks1.repl.co/")
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
