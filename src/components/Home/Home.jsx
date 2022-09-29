@@ -17,7 +17,7 @@ const Home = () => {
       {data?.map((item) => (
         <li className="event">
           <Link to={`/article/${item.id}`}>
-            <img src={item.image}></img>
+            <img className="article-image" src={item.image}></img>
           </Link>
           <div className="article-info">
             <h1 className="info-title">{item.title}</h1>
@@ -25,18 +25,20 @@ const Home = () => {
               <h1 className="info-date">
                 {item.date} às {item.hour}
               </h1>
-              <div className="info-local">
-                <svg
-                  width="12"
-                  height="12"
-                  fill="white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm1.476 14.955c.988-.405 1.757-1.211 2.116-2.216l2.408-6.739-6.672 2.387c-1.006.36-1.811 1.131-2.216 2.119l-3.065 7.494 7.429-3.045zm-.122-4.286c.551.551.551 1.446 0 1.996-.551.551-1.445.551-1.996 0-.551-.55-.551-1.445 0-1.996.551-.551 1.445-.551 1.996 0z" />
-                </svg>
-                <b>{item.address.city}</b>
-              </div>
+              <Link className="info-local" to={`/local/${item.pubName}`}>
+                <div>
+                  <svg
+                    width="12"
+                    height="12"
+                    fill="white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm1.476 14.955c.988-.405 1.757-1.211 2.116-2.216l2.408-6.739-6.672 2.387c-1.006.36-1.811 1.131-2.216 2.119l-3.065 7.494 7.429-3.045zm-.122-4.286c.551.551.551 1.446 0 1.996-.551.551-1.445.551-1.996 0-.551-.55-.551-1.445 0-1.996.551-.551 1.445-.551 1.996 0z" />
+                  </svg>
+                  <b>{item.pubName}</b>
+                </div>
+              </Link>
             </div>
             <Link to={`/article/${item.id}`}>
               <button className="info-price">

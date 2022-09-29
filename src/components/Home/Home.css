@@ -4,6 +4,7 @@
     width: 100%;
     justify-content: center;
     gap: 10px;
+    padding: 10px;
 }
 .event {
     display: flex;
@@ -40,7 +41,7 @@
 .info-local {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     font-family: var(--font-serif);
     font-size: 16px;
     margin-left: auto;
@@ -52,7 +53,7 @@
     background-color: white;
     border-radius: 25px;
     padding: 24px;
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     transition: 0.3s;

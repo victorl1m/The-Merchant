@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./Article.css";
+import "./Local.css";
 
-const Article = () => {
+const Local = () => {
   const { id } = useParams();
   const [data, setData] = useState();
 
