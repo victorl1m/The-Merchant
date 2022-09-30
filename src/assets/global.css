@@ -30,6 +30,8 @@
     --hg-color: #81453f; 
     --font-serif: 'GeosansLight', sans-serif;
     --font-display: 'Comicy', sans-serif;
+    --text-color: white;
+    --svg-color: white;
 }
 a {
     text-decoration: none;
