@@ -23,7 +23,7 @@
     gap: 5px;
     flex-direction: column;
     line-height: 1.5rem;
-    color: white;
+    color: var(--text-color);
     border-radius: 25px;
     padding: 14px;
     background-color: var(--hg-color);
@@ -64,8 +64,8 @@
 }
 .info-price:hover {
     background-color: var(--hg-color);
-    color: white;
-    fill: white;
+    color: var(--text-color);
+    fill: var(--svg-color)
 }
 .info-more {
     display: flex;
