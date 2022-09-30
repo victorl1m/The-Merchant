@@ -25,7 +25,7 @@
     text-align: justify;
     font-family: var(--font-serif);
     font-size: 24px;
-    color: #81453f;
+    color: var(--text-color);
 }
 .pubinfo-local {
     font-family: var(--font-serif);
