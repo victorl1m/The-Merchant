@@ -1,7 +1,10 @@
 .bar-div {
     display: flex;
     flex-direction: row;
-    padding: 32px;
+    padding: 16px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     background-color: var(--hg-color);
