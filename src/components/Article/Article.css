@@ -30,6 +30,7 @@
     padding: 10px;
     gap: 10px;
     border: 2px solid var(--hg-color);
+    border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
 }
