@@ -1,6 +1,13 @@
 @import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 
 @font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SF Pro Display'), url('../assets//fonts/sfpro.woff') format('woff');
+}
+
+@font-face {
     font-family: 'Comicy';
     font-style: normal;
     font-weight: 400;
