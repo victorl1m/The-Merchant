@@ -1,5 +1,17 @@
-@import url('http://fonts.cdnfonts.com/css/comicy');
-@import url('http://fonts.cdnfonts.com/css/geo-sans-light');
+@font-face {
+    font-family: 'Comicy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comicy'), url('../assets/fonts/Comicy-3zg3z.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GeosansLight';
+    font-style: italic;
+    font-weight: 500;
+    src: local('GeosansLight'), url('../assets/fonts/GeosansLight-Oblique.woff') format('woff');
+}
+
 
 * {
     padding: 0;
