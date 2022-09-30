@@ -27,3 +27,24 @@
     font-size: 24px;
     color: #81453f;
 }
+.pubinfo-local {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    color: var(--hg-color);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    fill: var(--hg-color);
+}
+.pubinfo-options {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    color: var(--hg-color);
+    padding: 25px;
+    fill: var(--hg-color);
+    display: flex;
+    align-items: center;
+    fill: var(--hg-color);
+    text-align: center;
+}
