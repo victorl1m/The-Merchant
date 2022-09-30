@@ -11,7 +11,7 @@
     font-family: var(--font-display);
     font-size: 24px;
     text-align: center;
-    color: var(--hg-color);
+    color: white;
 }
 .article-additional {
     display: flex;
@@ -44,11 +44,11 @@
     font-family: var(--font-serif);
     font-size: 18px;
     font-weight: bolder;
-    fill: var(--hg-color);
+    fill: white;
     display: flex;
     align-items: center;
     gap: 5px;
-    color: var(--hg-color);
+    color: white;
 }
 b {
  font-family: var(--font-serif);
@@ -67,7 +67,7 @@ b {
     font-family: var(--font-serif);
     font-weight: lighter;
     font-size: 18px;
-    color: #81453f;
+    color: white;
 }
 .img {
    display: flex;
@@ -87,6 +87,7 @@ img {
     display: flex;
     font-size: 24px;
     width: min(100%, 1000px);
+    color: white;
     font-family: var(--font-serif);
     font-weight: bold;
     align-items: center;
