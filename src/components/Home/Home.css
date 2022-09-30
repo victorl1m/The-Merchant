@@ -35,7 +35,7 @@
 }
 .info-date {
     font-family: var(--font-serif);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
 }
 .info-local {
@@ -43,7 +43,7 @@
     align-items: center;
     gap: 2px;
     font-family: var(--font-serif);
-    font-size: 16px;
+    font-size: 12px;
     margin-left: auto;
 }
 .info-price {

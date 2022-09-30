@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
     padding: 10px;
 }
 .article-title {
@@ -41,12 +42,12 @@
 }
 .article-local {
     font-family: var(--font-serif);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bolder;
     fill: var(--hg-color);
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     color: var(--hg-color);
 }
 b {

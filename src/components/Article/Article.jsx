@@ -15,7 +15,7 @@ const Article = () => {
   return (
     <div className="article-div">
       <div className="img">
-        <img className="article-image" src={data?.image}></img>
+        <img className="article-image" src={data?.eventImage}></img>
       </div>
       <div className="article-content">
         {/*  */}
