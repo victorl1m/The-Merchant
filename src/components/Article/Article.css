@@ -90,7 +90,7 @@ img {
     width: min(100%, 1000px);
     color: var(--text-color);
     font-family: var(--font-serif);
-    font-weight: bold;
+    font-weight: lighter;
     align-items: center;
     justify-content: center;
 }
