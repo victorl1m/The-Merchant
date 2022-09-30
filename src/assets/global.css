@@ -1,15 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
 @font-face {
     font-family: 'Comicy';
     font-style: normal;
     font-weight: 400;
     src: local('Comicy'), url('../assets/fonts/Comicy-3zg3z.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'GeosansLight';
-    font-style: normal;
-    font-weight: 500;
-    src: local('GeosansLight'), url('../assets/fonts/GeosansLight-Oblique.woff') format('woff');
 }
 * {
     padding: 0;
@@ -28,7 +23,7 @@
 }
 :root {
     --hg-color: #81453f; 
-    --font-serif: 'GeosansLight', sans-serif;
+    --font-serif: 'SF Pro Display', sans-serif;
     --font-display: 'Comicy', sans-serif;
     --text-color: white;
     --svg-color: white;
