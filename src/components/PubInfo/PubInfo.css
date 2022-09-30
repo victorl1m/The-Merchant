@@ -1,0 +1,29 @@
+.pubinfo-image {
+    width: min(100%, 1000px);
+    object-fit: cover;
+    /* padding: 10px; */
+    border-radius: 25px;
+    height: 450px;  
+    border: 5px solid var(--hg-color);
+}
+.pubinfo-div {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pubinfo-title {
+    font-weight: lighter;
+    padding: 10px;
+    font-family: var(--font-display);
+    font-size: 24px;
+    text-align: center;
+    color: var(--hg-color);
+}
+.pubinfo-desc {
+    width: min(100%, 1000px);
+    text-align: justify;
+    font-family: var(--font-serif);
+    font-size: 24px;
+    color: #81453f;
+}
