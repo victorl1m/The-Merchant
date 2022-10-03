@@ -24,6 +24,7 @@ const TopBar = () => {
         <li className="topbar-elements">
           <button className="topbar-element">Eventos & Festas</button>
           <button className="topbar-element">Bares</button>
+          <button className="topbar-cfg">Configurações</button>
         </li>
       </ul>
     </div>
