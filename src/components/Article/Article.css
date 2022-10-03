@@ -11,11 +11,7 @@
     font-family: var(--font-display);
     font-size: 24px;
     text-align: center;
-<<<<<<< HEAD
     color: var(--text-color)
-=======
-    color: var(--text-color);
->>>>>>> e565074 (new style)
 }
 .article-additional {
     display: flex;
@@ -33,11 +29,7 @@
 .article-div {
     padding: 10px;
     gap: 10px;
-<<<<<<< HEAD
     border: 2px solid var(--hg-color);
-=======
-    border: 1px solid var(--hg-color);
->>>>>>> e565074 (new style)
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -76,11 +68,7 @@ b {
     font-family: var(--font-serif);
     font-weight: lighter;
     font-size: 18px;
-<<<<<<< HEAD
     color: var(--text-color);
-=======
-    color: var(--text-color)
->>>>>>> e565074 (new style)
 }
 .img {
    display: flex;
