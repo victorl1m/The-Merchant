@@ -26,6 +26,7 @@
     transition: 0.3s;
 }
 :root {
+    --transition: 0.3s;
     --hg-color: #81453f; 
     --text-color: white;
     --svg-color: white;

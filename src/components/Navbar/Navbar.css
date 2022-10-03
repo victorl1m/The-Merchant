@@ -33,6 +33,7 @@
     background-color: var(--hg-color);
     border-radius: 25px;
     padding: 18px;
+    transition: 0s;
 }
 .nav-item-text {
     color: var(--text-color);
@@ -42,6 +43,6 @@
 .nav-item:hover {
     fill: var(--hg-color);
     background-color: white;
-    transition: 0.3s;
+    transition: 0s;
 }
 }
