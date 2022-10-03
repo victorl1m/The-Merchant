@@ -27,6 +27,7 @@
     align-items: center;
 }
 .article-div {
+    margin-bottom: 100px;
     padding: 10px;
     gap: 10px;
     border: 2px solid var(--hg-color);
