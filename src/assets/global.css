@@ -1,17 +1,14 @@
-@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 
 @font-face {
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 500;
-    src: local('SF Pro Display'), url('../assets//fonts/sfpro.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Comicy';
+    font-family: 'Varela Round';
     font-style: normal;
     font-weight: 400;
-    src: local('Comicy'), url('../assets/fonts/Comicy-3zg3z.woff') format('woff');
+    src: local('Varela Round'), url('../assets//fonts/VarelaRound-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    src: local('SF Pro Display'), url('../assets/fonts/sfpro.woff') format('woff');
 }
 * {
     padding: 0;
@@ -30,12 +27,15 @@
 }
 :root {
     --hg-color: #81453f; 
-    --font-serif: 'SF Pro Display', sans-serif;
-    --font-display: 'Comicy', sans-serif;
     --text-color: white;
     --svg-color: white;
+    --font-serif: 'Varela Round', sans-serif;
+    --font-display: 'Varela Round', sans-serif;
 }
 a {
     text-decoration: none;
     color: white;
+}
+img:hover {
+    border: 1px solid white;
 }

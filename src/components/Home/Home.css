@@ -6,14 +6,12 @@
     gap: 10px;
     padding: 10px;
 }
-.event {
+.event-list {
     display: flex;
     flex-direction: column;
     padding: 10px;
     object-fit: cover;
-    /* background-color: red; */
     width: 400px;
-
     background-color: var(--hg-color);
     border-radius: 25px;
 }
@@ -23,7 +21,7 @@
     gap: 5px;
     flex-direction: column;
     line-height: 1.5rem;
-    color: var(--text-color);
+    color: white;
     border-radius: 25px;
     padding: 14px;
     background-color: var(--hg-color);
@@ -36,7 +34,7 @@
 .info-date {
     font-family: var(--font-serif);
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .info-local {
     display: flex;
@@ -64,8 +62,9 @@
 }
 .info-price:hover {
     background-color: var(--hg-color);
-    color: var(--text-color);
-    fill: var(--svg-color)
+    color: white;
+    fill: white;
+    box-shadow: inset 0px 0px 10px 0px #461b17;
 }
 .info-more {
     display: flex;
@@ -78,6 +77,5 @@
 .price {
     font-family: var(--font-serif);
     gap: 2px;
-    font-family: var(--font-serif);
     margin-left: auto;
 }
