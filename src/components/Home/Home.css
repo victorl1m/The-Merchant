@@ -1,84 +1,142 @@
+.div-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loading {
+  width: 400px;
+  margin-top: 100px;
+}
+.loading-text {
+  color: var(--hg-color);
+  font-family: "Varela Round";
+  text-align: center;
+}
 .event-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 100px;
 }
 .event-list {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    object-fit: cover;
-    width: 400px;
-    background-color: var(--hg-color);
-    border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  object-fit: cover;
+  width: 400px;
+  background-color: var(--hg-color);
+  border-radius: 25px;
 }
-
-.article-info {
-    font-family: var(--font-serif);
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-    line-height: 1.5rem;
-    color: white;
-    border-radius: 25px;
-    padding: 14px;
-    background-color: var(--hg-color);
-    /* background-color: red; */
+.product-image {
+  width: min(100%, 1000px);
+  object-fit: cover;
+  border-radius: 25px;
+  height: 350px;
+}
+.product-info {
+  font-family: var(--font-serif);
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  line-height: 1.5rem;
+  color: white;
+  border-radius: 25px;
+  padding: 14px;
+  background-color: var(--hg-color);
+  /* background-color: red; */
 }
 .info-title {
-    font-family: var(--font-serif);
-    font-size: 24px;
+  font-family: var(--font-serif);
+  font-size: 24px;
 }
-.info-date {
-    font-family: var(--font-serif);
-    font-size: 16px;
-    font-weight: 300;
-}
-.info-local {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-family: var(--font-serif);
-    font-size: 12px;
-    margin-left: auto;
+.info-desc {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 300;
+  width: min(100%, 250 px);
 }
 .info-price {
-    background-color: transparent;
-    border: 1px solid white;
-    color: var(--hg-color);
-    background-color: white;
-    border-radius: 25px;
-    padding: 24px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    transition: 0.3s;
-    fill: var(--hg-color);
-    color: var(--hg-color);
-    cursor: pointer;
-    
+  background-color: transparent;
+  border: 1px solid white;
+  color: var(--hg-color);
+  background-color: white;
+  border-radius: 25px;
+  padding: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  fill: var(--hg-color);
+  color: var(--hg-color);
+  cursor: pointer;
 }
+.info-quantity {
+  background-color: transparent;
+  border: 1px solid white;
+  color: var(--hg-color);
+  background-color: white;
+  border-radius: 25px;
+  padding: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  fill: var(--hg-color);
+  color: var(--hg-color);
+  cursor: pointer;
+}
+.info-remove {
+  background-color: transparent;
+  border: 1px solid white;
+  color: var(--hg-color);
+  background-color: white;
+  border-radius: 25px;
+  padding: 24px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  fill: var(--hg-color);
+  color: var(--hg-color);
+  cursor: pointer;
+}
+
 .info-price:hover {
-    background-color: var(--hg-color);
-    color: white;
-    fill: white;
-    box-shadow: inset 0px 0px 10px 0px #461b17;
+  background-color: var(--hg-color);
+  color: white;
+  fill: white;
+}
+.info-remove:hover {
+  background-color: var(--hg-color);
+  color: white;
+  fill: white;
 }
 .info-more {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .info-price {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 .price {
-    font-family: var(--font-serif);
-    gap: 2px;
-    margin-left: auto;
+  font-family: var(--font-serif);
+  gap: 2px;
+  margin-left: auto;
+}
+.qtd {
+  font-family: var(--font-serif);
+  gap: 2px;
+  margin-left: auto;
+}
+.btn-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }

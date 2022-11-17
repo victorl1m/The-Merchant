@@ -1,5 +1,5 @@
 {
-  "name": "pubnews",
+  "name": "The Merchant",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite -port 5173"
+    "start": "vite -port 5173",
+    "server": "json-server --watch src/api/db.json --port 5000"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,42 +1,40 @@
-
 @font-face {
-    font-family: 'Varela Round';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Varela Round'), url('../assets//fonts/VarelaRound-Regular.woff') format('woff');
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Varela Round"),
+    url("../assets//fonts/VarelaRound-Regular.woff") format("woff");
 }
 @font-face {
-    font-family: 'SF Pro Display', sans-serif;
-    font-style: normal;
-    src: local('SF Pro Display'), url('../assets/fonts/sfpro.woff') format('woff');
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  src: local("SF Pro Display"), url("../assets/fonts/sfpro.woff") format("woff");
 }
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 *:hover {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 :root {
-    --transition: 0.3s;
-    --hg-color: #81453f; 
-    --text-color: white;
-    --svg-color: white;
-    --font-serif: 'Varela Round', sans-serif;
-    --font-display: 'Varela Round', sans-serif;
+  --transition: 0.3s;
+  --hg-color: #00aeef;
+  --bg-theme-color: white;
+  --text-color: white;
+  --svg-color: white;
+  --font-serif: "Varela Round", sans-serif;
+  --font-display: "Varela Round", sans-serif;
 }
 a {
-    text-decoration: none;
-    color: white;
-}
-img:hover {
-    border: 1px solid white;
+  text-decoration: none;
+  color: white;
 }
