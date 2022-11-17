@@ -1,1 +1,1 @@
-# pubnews
+# The Merchant, based on pubnews project
